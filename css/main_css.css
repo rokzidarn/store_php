@@ -1,0 +1,93 @@
+body {
+    background-color: #e9e9e9;
+    color: black;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+header{   
+    font-family: 'Yellowtail';
+    background-color: #2cb2a7;
+    font-size: 34px;
+    display: inline-block;
+    width:100%;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+footer {
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+    font-family:'Open Sans Condensed', sans-serif;
+    background-color: #2cb2a7;
+    font-size: 18px;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+a { 
+    color: white; 
+}
+h1 > a {
+    color: yellow;
+}
+#container {
+    display: table;
+    margin-left: 10%;
+    width: 80%;
+}
+.row {
+    font-size: 20px;
+    background-color: white;
+    display: table-row;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+}
+#li_box, #left {
+    background-color: white;
+    font-size: 20px;
+    display: table-cell;
+    padding: 15px;
+}
+#li_box > fieldset > legend {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #2cb2a7;
+}
+#ri_box {
+    background-color: white;
+    font-size: 20px;
+    display: table-cell;
+    padding: 15px;
+}
+#ri_box > fieldset > legend {
+    font-weight: bolder;
+    color: #2cb2a7;
+    font-size: 24px;
+}
+
+.button {
+    font-family:'Open Sans Condensed', sans-serif;
+    background-color: #2cb2a7;
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: all 400ms ease;
+}
+.button:hover {
+    cursor: pointer;
+    color: #2cb2a7;
+    background-color: white;
+    border: 1px solid #2cb2a7;
+}
+h3 {
+    color: #2cb2a7;
+}
+table {
+    width: 100%;
+}
+#t {
+    font-weight: bolder;
+    color: #2cb2a7;
+    font-size: 24px;
+}
